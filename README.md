@@ -3,10 +3,10 @@
 [![Solidity](https://img.shields.io/badge/Solidity-%5E0.8.30-black?logo=solidity)](https://docs.soliditylang.org/)
 [![Hardhat](https://img.shields.io/badge/Built%20with-Hardhat-orange)](https://hardhat.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Tests & Coverage](https://github.com/stepanovnikita95-tech/Solidity-Insurance-Pool/actions/workflows/test.yml/badge.svg)](https://github.com/stepanovnikita95-tech/Solidity-Insurance-Pool/actions/workflows/test.yml)
+[![Tests & Coverage](https://github.com/stepanovnikita95-tech/MarketPay-Web2-Web3/actions/workflows/test.yml/badge.svg)](https://github.com/stepanovnikita95-tech/MarketPay-Web2-Web3/actions/workflows/test.yml)
 <!-- COVERAGE BADGE -->
 
-> A lightweight, auditable smart contract payment gateway for a hybrid **Web2 + Web3 e-commerce platform** (Nest-Mart Grocery). Accepts ERC-20 stablecoins and ETH, supports batch payments, and emits immutable on-chain payment events — all without storing any personal or pricing data.
+> A lightweight, auditable smart contract payment gateway for a hybrid **Web2 + Web3 e-commerce platform** (Market Grocery). Accepts ERC-20 stablecoins and ETH, supports batch payments, and emits immutable on-chain payment events — all without storing any personal or pricing data.
 
 ---
 
@@ -180,7 +180,7 @@ await market.connect(tokenManager).addTokenApproval(tokenAddress);
 | Libraries | OpenZeppelin Contracts `v5` |
 | Ethers | ethers.js `v6` |
 | Type safety | TypeChain (ethers-v6 target) |
-| Testing | Mocha / Chai — **59 tests** |
+| Testing | Mocha / Chai — **67 tests** |
 | Coverage | solidity-coverage |
 | Testnet | Sepolia (Alchemy RPC) |
 
@@ -196,8 +196,8 @@ await market.connect(tokenManager).addTokenApproval(tokenAddress);
 ### Installation
 
 ```bash
-git clone https://github.com/<your-username>/MarketPay.git
-cd MarketPay
+git clone https://github.com/stepanovnikita95-tech/MarketPay-Web2-Web3.git
+cd MarketPay-Web2-Web3
 npm install
 ```
 
