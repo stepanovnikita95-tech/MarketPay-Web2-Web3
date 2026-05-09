@@ -1,0 +1,40 @@
+import { HardhatUserConfig } from "hardhat/config";
+import "@nomicfoundation/hardhat-toolbox";
+import "@typechain/hardhat"; 
+import * as dotenv from "dotenv";
+
+dotenv.config();
+
+const config: HardhatUserConfig = {
+  solidity: {
+    version: "0.8.30",        
+    settings: {
+      evmVersion: "cancun",  
+      optimizer: {
+        enabled: true,
+        runs: 200,
+      },
+    },
+  },
+  networks: {
+    hardhat: {},
+    sepolia: {
+      url: process.env.ALCHEMY_SEPOLIA_URL || "",
+      accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
+      chainId: 11155111,
+      gasPrice: "auto"
+    },
+  },
+  typechain: {
+    outDir: "typechain-types",
+    target: "ethers-v6",
+  },
+  etherscan: {
+    apiKey: process.env.ETHERSCAN_API_KEY || "",
+  },
+  sourcify: {
+    enabled: true,
+  },
+}
+require("solidity-coverage");
+export default config;
