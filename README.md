@@ -4,7 +4,7 @@
 [![Hardhat](https://img.shields.io/badge/Built%20with-Hardhat-orange)](https://hardhat.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Tests & Coverage](https://github.com/stepanovnikita95-tech/MarketPay-Web2-Web3/actions/workflows/test.yml/badge.svg)](https://github.com/stepanovnikita95-tech/MarketPay-Web2-Web3/actions/workflows/test.yml)
-<!-- COVERAGE BADGE -->
+[![codecov](https://codecov.io/gh/stepanovnikita95-tech/MarketPay-Web2-Web3/branch/main/graph/badge.svg)](https://codecov.io/gh/stepanovnikita95-tech/MarketPay-Web2-Web3)
 
 > A lightweight, auditable smart contract payment gateway for a hybrid **Web2 + Web3 e-commerce platform** (Market Grocery). Accepts ERC-20 stablecoins and ETH, supports batch payments, and emits immutable on-chain payment events — all without storing any personal or pricing data.
 

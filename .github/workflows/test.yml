@@ -26,5 +26,12 @@ jobs:
       - name: Compile contracts
         run: npx hardhat compile
 
-      - name: Run tests
-        run: npx hardhat test
+      - name: Run tests with coverage
+        run: npx hardhat coverage
+
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v5
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          files: ./coverage/lcov.info
+          fail_ci_if_error: true
