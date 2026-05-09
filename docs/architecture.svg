@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="web2bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e3a5f"/>
+      <stop offset="100%" stop-color="#0d2137"/>
+    </linearGradient>
+    <linearGradient id="contractbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2d1b69"/>
+      <stop offset="100%" stop-color="#1a0f3c"/>
+    </linearGradient>
+    <linearGradient id="web3bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#451a03"/>
+      <stop offset="100%" stop-color="#27100a"/>
+    </linearGradient>
+    <marker id="ap" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#a78bfa"/>
+    </marker>
+    <marker id="ao" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#f59e0b"/>
+    </marker>
+    <marker id="ab" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#60a5fa"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Grid dots -->
+  <pattern id="dots" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+    <circle cx="2" cy="2" r="1" fill="#21262d" opacity="0.8"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#dots)"/>
+
+  <!-- Title -->
+  <text x="600" y="48" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="bold" fill="white" letter-spacing="-0.5">MarketPay</text>
+  <text x="600" y="72" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#8b949e">On-Chain Payment Gateway — Web2 + Web3 E-Commerce Integration</text>
+  <line x1="420" y1="84" x2="780" y2="84" stroke="#30363d" stroke-width="1"/>
+
+  <!-- ===== WEB2 BOX ===== -->
+  <rect x="28" y="98" width="298" height="438" rx="12" fill="url(#web2bg)" stroke="#1d4ed8" stroke-width="1.5"/>
+  <rect x="28" y="98" width="298" height="44" rx="12" fill="#1d4ed8" opacity="0.2"/>
+  <rect x="28" y="130" width="298" height="12" fill="#1d4ed8" opacity="0.2"/>
+  <text x="177" y="125" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#93c5fd" letter-spacing="2">WEB2 LAYER</text>
+
+  <text x="177" y="162" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="bold" fill="white">MERN Stack</text>
+  <line x1="52" y1="178" x2="302" y2="178" stroke="#1d4ed8" stroke-width="0.5" opacity="0.7"/>
+
+  <text x="177" y="204" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#93c5fd">React Frontend</text>
+  <text x="177" y="226" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#93c5fd">Node.js / Express</text>
+  <text x="177" y="248" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#93c5fd">MongoDB</text>
+
+  <line x1="52" y1="264" x2="302" y2="264" stroke="#1d4ed8" stroke-width="0.5" stroke-dasharray="4,4" opacity="0.6"/>
+  <text x="177" y="286" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#60a5fa" letter-spacing="1">BACKEND INDEXING</text>
+  <text x="177" y="307" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#bfdbfe">Listens for PaymentDone</text>
+  <text x="177" y="327" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#bfdbfe">Updates order status</text>
+  <text x="177" y="347" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#bfdbfe">Stores tx hash in DB</text>
+
+  <line x1="52" y1="363" x2="302" y2="363" stroke="#1d4ed8" stroke-width="0.5" stroke-dasharray="4,4" opacity="0.6"/>
+  <text x="177" y="387" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#475569">Non-crypto users</text>
+  <text x="177" y="407" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#475569">completely unaffected</text>
+  <text x="177" y="427" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#475569">Web3 is purely additive</text>
+
+  <line x1="52" y1="445" x2="302" y2="445" stroke="#1d4ed8" stroke-width="0.5" stroke-dasharray="4,4" opacity="0.4"/>
+  <text x="177" y="470" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#374151">Business logic stays off-chain</text>
+  <text x="177" y="490" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#374151">No personal data on-chain</text>
+  <text x="177" y="510" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#374151">Pricing managed by backend</text>
+
+  <!-- ===== CONTRACT BOX ===== -->
+  <rect x="366" y="98" width="468" height="468" rx="12" fill="url(#contractbg)" stroke="#7c3aed" stroke-width="2"/>
+  <rect x="364" y="96" width="472" height="472" rx="13" fill="none" stroke="#a78bfa" stroke-width="0.5" opacity="0.3"/>
+  <rect x="366" y="98" width="468" height="44" rx="12" fill="#7c3aed" opacity="0.2"/>
+  <rect x="366" y="130" width="468" height="12" fill="#7c3aed" opacity="0.2"/>
+  <text x="600" y="125" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#c4b5fd" letter-spacing="2">SMART CONTRACT</text>
+
+  <text x="600" y="163" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="white">MarketPay.sol</text>
+  <text x="600" y="183" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#7c3aed">Solidity 0.8.30  ·  OpenZeppelin v5  ·  EVM Cancun</text>
+  <line x1="392" y1="196" x2="808" y2="196" stroke="#7c3aed" stroke-width="0.5" opacity="0.8"/>
+
+  <text x="600" y="218" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#c4b5fd" letter-spacing="1">PAYMENT METHODS</text>
+  <text x="390" y="239" font-family="monospace" font-size="12" fill="#e2e8f0">  pay(orderId, token, amount)</text>
+  <text x="390" y="258" font-family="monospace" font-size="12" fill="#e2e8f0">  payBatch(orderIds[], token, amounts[])</text>
+  <text x="390" y="277" font-family="monospace" font-size="12" fill="#e2e8f0">  payWithETH(orderId)</text>
+  <text x="390" y="296" font-family="monospace" font-size="12" fill="#e2e8f0">  payBatchWithETH(orderIds[], amounts[])</text>
+
+  <line x1="392" y1="310" x2="808" y2="310" stroke="#7c3aed" stroke-width="0.5" stroke-dasharray="4,4" opacity="0.6"/>
+  <text x="600" y="330" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#c4b5fd" letter-spacing="1">SECURITY</text>
+  <text x="390" y="350" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#e2e8f0">+  ReentrancyGuard</text>
+  <text x="595" y="350" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#e2e8f0">+  SafeERC20</text>
+  <text x="390" y="370" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#e2e8f0">+  Pausable circuit breaker</text>
+  <text x="595" y="370" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#e2e8f0">+  orderId idempotency</text>
+  <text x="390" y="390" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#e2e8f0">+  MAX_BATCH_SIZE = 100</text>
+  <text x="595" y="390" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#e2e8f0">+  receive() reverts</text>
+
+  <line x1="392" y1="404" x2="808" y2="404" stroke="#7c3aed" stroke-width="0.5" stroke-dasharray="4,4" opacity="0.6"/>
+  <text x="600" y="424" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#c4b5fd" letter-spacing="1">ACCESS CONTROL VARIANTS</text>
+
+  <rect x="392" y="434" width="200" height="52" rx="8" fill="#1a0f3c" stroke="#7c3aed" stroke-width="1"/>
+  <text x="492" y="455" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#c4b5fd" font-weight="bold">MarketPay.sol</text>
+  <text x="492" y="474" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#6b7280">Ownable — solo admin</text>
+
+  <rect x="608" y="434" width="200" height="52" rx="8" fill="#1a0f3c" stroke="#7c3aed" stroke-width="1"/>
+  <text x="708" y="455" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#c4b5fd" font-weight="bold">MarketPayAM.sol</text>
+  <text x="708" y="474" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#6b7280">AccessManaged — multi-role</text>
+
+  <text x="600" y="516" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#4b5563">67 tests passing  ·  GitHub Actions CI  ·  Codecov  ·  Hardhat  ·  TypeScript</text>
+
+  <!-- ===== WEB3 BOX ===== -->
+  <rect x="874" y="98" width="298" height="438" rx="12" fill="url(#web3bg)" stroke="#d97706" stroke-width="1.5"/>
+  <rect x="874" y="98" width="298" height="44" rx="12" fill="#d97706" opacity="0.2"/>
+  <rect x="874" y="130" width="298" height="12" fill="#d97706" opacity="0.2"/>
+  <text x="1023" y="125" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#fbbf24" letter-spacing="2">WEB3 LAYER</text>
+
+  <text x="1023" y="162" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="bold" fill="white">Ethereum</text>
+  <line x1="898" y1="178" x2="1148" y2="178" stroke="#d97706" stroke-width="0.5" opacity="0.7"/>
+
+  <text x="1023" y="204" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#fcd34d">ERC-20 Stablecoins</text>
+  <text x="1023" y="226" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#fcd34d">Native ETH</text>
+  <text x="1023" y="248" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#fcd34d">Sepolia Testnet</text>
+
+  <line x1="898" y1="264" x2="1148" y2="264" stroke="#d97706" stroke-width="0.5" stroke-dasharray="4,4" opacity="0.6"/>
+  <text x="1023" y="286" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#fbbf24" letter-spacing="1">EMITTED EVENTS</text>
+  <text x="1023" y="308" text-anchor="middle" font-family="monospace" font-size="11" fill="#fed7aa">PaymentDone</text>
+  <text x="1023" y="328" text-anchor="middle" font-family="monospace" font-size="11" fill="#fed7aa">PaymentETHDone</text>
+  <text x="1023" y="348" text-anchor="middle" font-family="monospace" font-size="11" fill="#fed7aa">BatchPaymentDone</text>
+  <text x="1023" y="368" text-anchor="middle" font-family="monospace" font-size="11" fill="#fed7aa">BatchWithETHPaymentDone</text>
+
+  <line x1="898" y1="384" x2="1148" y2="384" stroke="#d97706" stroke-width="0.5" stroke-dasharray="4,4" opacity="0.6"/>
+  <text x="1023" y="408" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#78350f">Immutable audit trail</text>
+  <text x="1023" y="428" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#78350f">No personal data stored</text>
+  <text x="1023" y="448" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#78350f">On-chain verification</text>
+
+  <line x1="898" y1="465" x2="1148" y2="465" stroke="#d97706" stroke-width="0.5" stroke-dasharray="4,4" opacity="0.4"/>
+  <text x="1023" y="490" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#374151">safeTransferFrom (ERC-20)</text>
+  <text x="1023" y="510" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#374151">msg.value (ETH)</text>
+
+  <!-- ===== ARROWS ===== -->
+  <!-- Web2 -> Contract: approve + pay -->
+  <line x1="328" y1="232" x2="362" y2="232" stroke="#a78bfa" stroke-width="2" marker-end="url(#ap)"/>
+  <text x="345" y="224" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#a78bfa">approve</text>
+  <text x="345" y="245" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#a78bfa">+ pay()</text>
+
+  <!-- Contract -> Web3: transfer -->
+  <line x1="836" y1="232" x2="870" y2="232" stroke="#f59e0b" stroke-width="2" marker-end="url(#ao)"/>
+  <text x="853" y="224" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#f59e0b">transfer</text>
+  <text x="853" y="245" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#f59e0b">tokens</text>
+
+  <!-- Contract -> Web2: events (dashed) -->
+  <line x1="362" y1="318" x2="328" y2="318" stroke="#60a5fa" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#ab)"/>
+  <text x="345" y="311" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#60a5fa">on-chain</text>
+  <text x="345" y="330" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#60a5fa">events</text>
+
+  <!-- Web3 -> Contract: ETH payment (dashed) -->
+  <line x1="870" y1="310" x2="836" y2="310" stroke="#fbbf24" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#ao)"/>
+  <text x="853" y="302" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#fbbf24">ETH</text>
+  <text x="853" y="322" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#fbbf24">msg.value</text>
+
+  <!-- ===== BOTTOM ===== -->
+  <text x="600" y="580" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#6b7280">github.com/stepanovnikita95-tech/MarketPay-Web2-Web3</text>
+  <text x="600" y="610" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#374151">
+    Hardhat  ·  TypeScript  ·  ethers.js v6  ·  TypeChain  ·  Mocha / Chai  ·  GitHub Actions  ·  Codecov
+  </text>
+</svg>
